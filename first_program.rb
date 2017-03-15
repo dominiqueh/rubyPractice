@@ -12,5 +12,4 @@ greeting_phrase = "Bonjour le monde!"
 puts(greeting_phrase)
 puts("Please type in your name:")
 name = gets()
-puts(name)
 puts("Thank you " + name)
