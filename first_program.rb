@@ -7,4 +7,10 @@ puts(greeting_phrase)
 
 # re-assignment
 greeting_phrase = "Bonjour le monde!"
+
+# user input via the gets method then logging input
 puts(greeting_phrase)
+puts("Please type in your name:")
+name = gets()
+puts(name)
+puts("Thank you " + name)
