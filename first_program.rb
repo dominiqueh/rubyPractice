@@ -33,7 +33,9 @@ two = 2.to_s
 six = 6.to_s
 puts(two + six + " is not old!")
 
-# chomp
-puts("How sleep are you?")
+# chomp and re-assigning
+puts("How sleepy are you?")
 response = gets
-puts("I am" + response.chomp + ".. goodnight")
+puts("I am " + response.chomp + ".. goodnight")
+response = response.chomp
+puts("I am " + response + ".. goodnight")
