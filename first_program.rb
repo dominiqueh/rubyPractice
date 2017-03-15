@@ -39,3 +39,5 @@ response = gets
 puts("I am " + response.chomp + ".. goodnight")
 response = response.chomp
 puts("I am " + response + ".. goodnight")
+
+# End of super easy things to be reviewing
