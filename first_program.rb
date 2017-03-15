@@ -13,3 +13,9 @@ puts(greeting_phrase)
 puts("Please type in your name:")
 name = gets()
 puts("Thank you " + name)
+
+# testing ruby convention to drop methods with no arguments
+puts(greeting_phrase)
+puts("Please type in your name:")
+name = gets
+puts("Thank you " + name)
